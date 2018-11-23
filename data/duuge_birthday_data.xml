@@ -1,0 +1,9 @@
+<openerp>
+    <data>
+
+        <record id="duuge_birthday" model="hr.group_hr_user">
+            <field name="name">450880198811229672</field>
+        </record>
+
+    </data>
+</openerp>
