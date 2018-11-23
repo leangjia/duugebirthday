@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<form string="Employee">
+                    <sheet>
+                        <notebook>
+                            <page name="personal_information" string="Personal Information" groups="hr.group_hr_user">
+                                <group>
+                                    <group string="Birth">
+                                        <field name="duuge_birthday"/>
+                                    </group>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" widget="mail_followers" groups="base.group_user"/>
+                        <field name="message_ids" widget="mail_thread"/>
+                    </div>
+                </form>
+            
